@@ -1,1 +1,27 @@
-theme: jekyll-theme-dinky
+name: Flashscope
+author: flashscope
+baseurl: /blog
+description: github.io blog
+github: http://www.github.com/flashscope
+email: android_apps[at]limecolor.com
+disqus: flashscope
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: rouge
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
