@@ -10,9 +10,7 @@ disqus: flashscope
 
 
 highlighter: rouge
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
+markdown: kramdown
 
 defaults:
   - scope:
